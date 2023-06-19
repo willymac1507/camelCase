@@ -4,6 +4,7 @@
     --secondary: #34AD54;
     --light: #EEF9FF;
     --dark: #091E3E;
+    --web: #00FFCA
 }
 
 
@@ -153,6 +154,10 @@ h6,
 .navbar-dark .navbar-toggler {
     color: var(--primary) !important;
     border-color: var(--primary) !important;
+}
+
+.navbar-light {
+    background-color: var(--light);
 }
 
 @media (max-width: 991.98px) {
