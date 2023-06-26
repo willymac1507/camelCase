@@ -1,7 +1,3 @@
-function changeActive() {
-  $(this).removeClass('active');
-}
-
 $('#nav--main').on('click', (e) => {
   $('#nav--main').children('button').removeClass('active');
   $(e.target).addClass('active');
