@@ -1,0 +1,39 @@
+@use 'variables' as *;
+
+// media query mixins
+
+@mixin mq-xsmall() {
+  @media screen and (max-width: $mvp-xsmall) {
+    @content;
+  }
+}
+
+@mixin mq-small() {
+  @media screen and (min-width: $mvp-small) {
+    @content;
+  }
+}
+
+@mixin mq-medium() {
+  @media screen and (min-width: $mvp-medium) {
+    @content;
+  }
+}
+
+@mixin mq-large() {
+  @media screen and (min-width: $mvp-large) {
+    @content;
+  }
+}
+
+@mixin mq-xlarge() {
+  @media screen and (min-width: $mvp-xlarge) {
+    @content;
+  }
+}
+
+@mixin mq-xxlarge() {
+  @media screen and (min-width: $mvp-xxlarge) {
+    @content;
+  }
+}
